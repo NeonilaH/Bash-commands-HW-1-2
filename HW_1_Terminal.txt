@@ -5,7 +5,7 @@
 5) Зайти в любую папку - cd foldername1
 6) Создать 5 файлов (3 txt, 2 json) - touch a.txt b.txt c.txt d.json e.json
 7) Создать 3 папки - mkdir foldername4 foldername5 foldername6
-8. Вывести список содержимого папки - ls
+8) Вывести список содержимого папки - ls
 9) + Открыть любой txt файл - open a.txt
 10) + написать туда что-нибудь, любой текст - cat >> a.txt 
 	qwer
