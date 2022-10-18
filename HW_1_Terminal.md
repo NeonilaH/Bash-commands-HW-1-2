@@ -1,3 +1,5 @@
+## HW_1_Terminal
+
 1) See where I am - `pwd`
 2) Create a folder - `mkdir foldername`
 3) Go to the folder - `cd foldername`
