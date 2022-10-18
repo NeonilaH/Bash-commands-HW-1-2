@@ -53,8 +53,9 @@ The more filter command displays the contents of the file on the screen in separ
 
 2) Write a script that will automatically execute steps 3, 4, 5, 6, 7, 8, 13
 
+`nano bash_script.sh`
+
 ```sh
-nano bash_script.sh
 #!/bin/bash
 mkdir d1 d2 d3
 cd d1
