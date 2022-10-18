@@ -65,5 +65,7 @@ touch a.txt b.txt c.txt d.json e.json
 mkdir d4 d5 d6
 ls
 mv a.txt b.txt d6/
-bash bash_script.sh
 ```
+
+`bash bash_script.sh`
+
