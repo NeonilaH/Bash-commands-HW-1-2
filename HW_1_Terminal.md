@@ -7,7 +7,7 @@
 7) Create 3 folders - `mkdir foldername4 foldername5 foldername6`
 8) List folder contents - `ls`
 9) Open any txt file - `open a.txt`
-10) Write something there, any text - `cat >> a.txt`
+10) Write there any text - `cat >> a.txt`
 qwer
 bbg
 11) Save and exit - `Enter` --> `Ctrl+C`
