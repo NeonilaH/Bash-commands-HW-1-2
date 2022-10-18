@@ -1,63 +1,66 @@
-1) Посмотреть где я - pwd
-2) Создать папку - mkdir foldername
-3) Зайти в папку - cd foldername
-4) Создать 3 папки - mkdir foldername1 foldername2 foldername3
-5) Зайти в любую папку - cd foldername1
-6) Создать 5 файлов (3 txt, 2 json) - touch a.txt b.txt c.txt d.json e.json
-7) Создать 3 папки - mkdir foldername4 foldername5 foldername6
-8) Вывести список содержимого папки - ls
-9) + Открыть любой txt файл - open a.txt
-10) + написать туда что-нибудь, любой текст - cat >> a.txt 
-	qwer
-	bbg
-11) + сохранить и выйти - Enter --> Ctrl+C
-12) Выйти из папки на уровень выше - cd ..
-13) переместить любые 2 файла, которые вы создали, в любую другую папку - mv a.txt b.txt foldername5/
-14) скопировать любые 2 файла, которые вы создали, в любую другую папку - cp a.txt b.txt foldername6/
-15) Найти файл по имени - find. -name c.txt
-16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает - tail -f a.txt |  grep -w -i "sec"
-17) вывести несколько первых строк из текстового файла - head -n3 a.txt
-18) вывести несколько последних строк из текстового файла - tail -n3 a.txt
-19) просмотреть содержимое длинного файла (команда less) изучите как она работает - less a.txt
-Команда-фильтр more выводит содержимое файла на экран отдельными страницами, размером как раз в целый экран. Для того, чтобы увидеть следующую страницу, надо нажать на клавишу пробела. Нажатие на клавишу ‹Enter› приводит к смещению на одну строку. Клавиша ‹B› возвращает  на один экран назад. Выйти из режима просмотра можно с помощью клавиши ‹Q›.
-20) вывести дату и время - date +%F-%T
+1) See where I am - `pwd`
+2) Create a folder - `mkdir foldername`
+3) Go to the folder - `cd foldername`
+4) Create 3 folders - `mkdir foldername1 foldername2 foldername3`
+5) Go to any folder - `cd foldername1`
+6) Create 5 files (3 txt, 2 json) - `touch a.txt b.txt c.txt d.json e.json`
+7) Create 3 folders - `mkdir foldername4 foldername5 foldername6`
+8) List folder contents - `ls`
+9) Open any txt file - `open a.txt`
+10) Write something there, any text - `cat >> a.txt`
+qwer
+bbg
+11) Save and exit - `Enter` --> `Ctrl+C`
+12) Exit the folder one level up - `cd ..`
+13) Move any 2 files you created to any other folder - `mv a.txt b.txt foldername5/`
+14) Copy any 2 files you created to any other folder - `cp a.txt b.txt foldername6/`
+15) Find a file by name - `find. -name c.txt`
+16) View content in real time (grep command) and learn how it works - `tail -f a.txt | grep -w -i "sec"`
+17) Output the first few lines from a text file - `head -n3 a.txt`
+18) Output the last few lines from a text file - `tail -n3 a.txt`
+19) View the contents of a long file (`less` command) learn how it works - `less a.txt`
+The more filter command displays the contents of the file on the screen in separate pages, just the size of the entire screen. In order to see the next page, you must press the spacebar. Pressing the ‹Enter› key shifts by one line. The ‹B› key goes back one screen. You can exit the view mode using the ‹Q› key.
+20) Display date and time - `date +%F-%T`
 
-Задание *
+### Exercise *
 
-1) Отправить http запрос на сервер - curl http://162.55.220.72:5005/terminal-hw-request
-	$ curl http://162.55.220.72:5005/terminal-hw-request
- 	% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-	100   283  100   283    0     0   1687      0 --:--:-- --:--:-- --:--:--  1704{
- 	 "Intro": "Hello!! This is your the first response from server",
- 	 "Tasks": {
- 	   "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
- 	   "result": [
- 	     "Your_String",
-  	    "Your_number"
-  	  ]
- 	 }
-	}
+1) Send http request to server 
+`curl http://162.55.220.72:5005/terminal-hw-request`
+```
+ % Total % Received % Xferd Average Speed ​​Time Time Time Current
+                                 Dload Upload Total Spent Left Speed
+100 283 100 283 0 0 1687 0 --:--:-- --:--:-- --:--:-- 1704{
+ "Intro": "Hello!! This is your first response from server",
+ "Tasks": {
+ "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+ "result": [
+ "Your_String",
+  "Your_number"
+  ]
+ }
+}
+```
 
+`curl "http://162.55.220.72:5005/get_method?name=Neonila&age=34"`
+```
+% Total % Received % Xferd Average Speed ​​Time Time Time Current
+                                 Dload Upload Total Spent Left Speed
+100 25 100 25 0 0 160 0 --:--:-- --:--:-- --:--:-- 162[
+ "Neonila"
+ "34"
+]
+```
 
-	p171@DESKTOP-UD4Q3BD MINGW64 ~/dir_1
-	$  curl "http://162.55.220.72:5005/get_method?name=Neonila&age=34"
-	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-	100    25  100    25    0     0    160      0 --:--:-- --:--:-- --:--:--   162[
- 	 "Neonila",
- 	 "34"
-	]
+2) Write a script that will automatically execute steps 3, 4, 5, 6, 7, 8, 13
 
-
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
-
-	nano bash_script.sh
-	#!/bin/bash
-	mkdir d1 d2 d3
-	cd d1
-	touch a.txt b.txt c.txt d.json e.json
-	mkdir d4 d5 d6
-	ls
-	mv a.txt b.txt d6/
-	bash bash_script.sh
+```sh
+nano bash_script.sh
+#!/bin/bash
+mkdir d1 d2 d3
+cd d1
+touch a.txt b.txt c.txt d.json e.json
+mkdir d4 d5 d6
+ls
+mv a.txt b.txt d6/
+bash bash_script.sh
+```
