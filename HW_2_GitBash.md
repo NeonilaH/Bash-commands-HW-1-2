@@ -19,7 +19,7 @@
  `cat >> tf_3.txt`
  9. Using cat command add the line “the second 2” to the file tf_3.txt
 `cat >> tf_3.txt`
- 10.Using cat command add the line “the sec 2” to the text file tf_3.txt
+ 10. Using cat command add the line “the sec 2” to the text file tf_3.txt
 `cat >> tf_3.txt`
  11. Using cat command add the line “the sec 3” to the text file tf_2.txt
 `cat >> tf_2.txt`
