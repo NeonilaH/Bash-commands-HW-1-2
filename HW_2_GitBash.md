@@ -1,5 +1,5 @@
 1. Make folder dir_1
-- `mkdir dir_1`
+`mkdir dir_1`
  2. Go to dir_1 folder
 `cd dir_1`
  3. Create folder inner_dir_1
@@ -15,17 +15,17 @@
  the third 3
  7. Go to the folder inner_dir_1
 `cd inner_dir_1`
- 8. Through cat make a text file tf_3.txt with any lines
+ 8. Using cat command make a text file tf_3.txt with any lines
  `cat >> tf_3.txt`
- 9. Through cat add the line “the second 2” to the file tf_3.txt
+ 9. Using cat command add the line “the second 2” to the file tf_3.txt
 `cat >> tf_3.txt`
- 10. Through cat add the line “the sec 2” to the text file tf_3.txt
+ 10.Using cat command add the line “the sec 2” to the text file tf_3.txt
 `cat >> tf_3.txt`
- 11. Through cat add the line “the sec 3” to the text file tf_2.txt
+ 11. Using cat command add the line “the sec 3” to the text file tf_2.txt
 `cat >> tf_2.txt`
- 12. Through cat add the line “the SeCoNd 2” to the text file tf_3.txt
+ 12. Using cat command add the line “the SeCoNd 2” to the text file tf_3.txt
 `cat >> tf_3.txt`
- 13. Through cat add the line “the seConD 2” to the text file tf_2.txt
+ 13. Using cat command add the line “the seConD 2” to the text file tf_2.txt
 `cat >> tf_2.txt`
  14. Make a text file tf_4.txt which will contain 15 lines.
 `seq 1 15 | cat > tf_4.txt`
