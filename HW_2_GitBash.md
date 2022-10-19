@@ -1,5 +1,5 @@
 1. Make folder dir_1
- `mkdir dir_1`
+- `mkdir dir_1`
  2. Go to dir_1 folder
 `cd dir_1`
  3. Create folder inner_dir_1
