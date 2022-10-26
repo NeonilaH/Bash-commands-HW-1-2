@@ -1,5 +1,5 @@
 [name.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/name.txt), [phone.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/phone.txt), [thefirst.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/thefirst.txt) are the very first files created and pushed to the repository during the class.</br>
-[HW_1_Terminal](#1.1) - The first homework was completed with MAC Terminal.
+[HW_1_Terminal](#1.1) - The first homework was completed with MAC Terminal.</br>
 [HW_2_GitBash](#1.2) - The second homework was completed with Windows Git Bash.
 
 ***
