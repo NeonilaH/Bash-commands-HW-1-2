@@ -1,3 +1,7 @@
+name.txt, phone.txt, thefirst.txt are the very first files created and pushed to the repository during the class.
+
+## HW_1_Terminal - The first homework was completed with MAC Terminal.
+
 ## HW_1_Terminal
 
 1) See where I am. - `pwd`
@@ -72,7 +76,7 @@ mv a.txt b.txt d6/
 
 ***
 
-## HW_2_GitBash
+## HW_2_GitBash - The second homework was completed with Windows Git Bash.
 
 1. Make folder dir_1. -
 `mkdir dir_1`
