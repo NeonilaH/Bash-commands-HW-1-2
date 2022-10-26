@@ -1,14 +1,14 @@
 ## HW_1_Terminal
 
-1) See where I am - `pwd`
-2) Create a folder - `mkdir foldername`
-3) Go to the folder - `cd foldername`
-4) Create 3 folders - `mkdir foldername1 foldername2 foldername3`
-5) Go to any folder - `cd foldername1`
-6) Create 5 files (3 txt, 2 json) - `touch a.txt b.txt c.txt d.json e.json`
-7) Create 3 folders - `mkdir foldername4 foldername5 foldername6`
-8) List folder contents - `ls`
-9) Open any txt file - `open a.txt`
+1) See where I am. - `pwd`
+2) Create a folder. - `mkdir foldername`
+3) Go to the folder. - `cd foldername`
+4) Create 3 folders. - `mkdir foldername1 foldername2 foldername3`
+5) Go to any folder. - `cd foldername1`
+6) Create 5 files (3 txt, 2 json). - `touch a.txt b.txt c.txt d.json e.json`
+7) Create 3 folders. - `mkdir foldername4 foldername5 foldername6`
+8) List folder contents. - `ls`
+9) Open any txt file. - `open a.txt`
 10) Write there any text - `cat >> a.txt`
 qwer
 bbg
