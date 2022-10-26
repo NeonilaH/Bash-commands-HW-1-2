@@ -1,4 +1,4 @@
-name.txt, phone.txt, thefirst.txt are the very first files created and pushed to the repository during the class.
+[name.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/name.txt), [phone.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/phone.txt), [thefirst.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/thefirst.txt) are the very first files created and pushed to the repository during the class.
 
 ## HW_1_Terminal - The first homework was completed with MAC Terminal.
 
