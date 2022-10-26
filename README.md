@@ -1,8 +1,11 @@
-[name.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/name.txt), [phone.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/phone.txt), [thefirst.txt](https://github.com/NeonilaH/Terminal-Bash-commands/blob/main/thefirst.txt) are the very first files created and pushed to the repository during the class.
+name.txt, phone.txt, thefirst.txt are the very first files created and pushed to the repository during the class.
 
-## HW_1_Terminal - The first homework was completed with MAC Terminal.
+[HW_1_Terminal](#1.1) - The first homework was completed with MAC Terminal.
+[HW_2_GitBash](#1.2) - The second homework was completed with Windows Git Bash.
 
-## HW_1_Terminal
+***
+
+## **HW_1_Terminal**<a name="1.1"><a>
 
 1) See where I am. - `pwd`
 2) Create a folder. - `mkdir foldername`
@@ -76,7 +79,7 @@ mv a.txt b.txt d6/
 
 ***
 
-## HW_2_GitBash - The second homework was completed with Windows Git Bash.
+## **HW_2_GitBash**<a name="1.2"><a>
 
 1. Make folder dir_1. -
 `mkdir dir_1`
