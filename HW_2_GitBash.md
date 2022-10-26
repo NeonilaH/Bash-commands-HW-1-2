@@ -1,4 +1,4 @@
-1. Make folder dir_1
+1. Make folder dir_1<br/>
 `mkdir dir_1`
  2. Go to dir_1 folder
 `cd dir_1`
