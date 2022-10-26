@@ -26,7 +26,8 @@ The more filter command displays the contents of the file on the screen in separ
 
 ### Exercise *
 
-1) Send http request to server <br/>
+1) Send http request to server 
+
 `curl http://162.55.220.72:5005/terminal-hw-request`
 ```
  % Total % Received % Xferd Average Speed ​​Time Time Time Current
