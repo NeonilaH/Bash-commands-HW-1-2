@@ -1,4 +1,4 @@
-1. Make folder dir_1<br/>
+1. Make folder dir_1
 `mkdir dir_1`
  2. Go to dir_1 folder
 `cd dir_1`
@@ -47,23 +47,23 @@
 `find $PWD -type f -iname "tf*"`
  23. Find lines in files where there is a combination of letters “sec” in the current folder
 `find . -type f -name "*" -exec grep "sec" {} +`
- 24. Find lines in files where there is a combination of letters “sec” in any case in the current folder
+ 24. Find lines in files where there is a combination of letters “sec” in any case in the current folder<br/>
 `find . -type f -name "*" -exec grep -i "sec" {} +`
- 25. Find lines in files where there is only a combination of letters “sec” in the current folder
+ 25. Find lines in files where there is only a combination of letters “sec” in the current folder<br/>
 `find . -type f -name "*" -exec grep -w "sec" {} +`
- 26. Find lines in files where there is only a combination of letters “sec” in any case in the current folder
+ 26. Find lines in files where there is only a combination of letters “sec” in any case in the current folder<br/>
 `find . -type f -name "*" -exec grep -w -i "sec" {} +`
- 27. Find lines in files where there is a combination of letters “second” in the current folder
+ 27. Find lines in files where there is a combination of letters “second” in the current folder<br/>
 `find . -type f -name "*" -exec grep "second" {} +`
- 28. Find lines in files where there is a combination of letters “second” in any case in the current folder
+ 28. Find lines in files where there is a combination of letters “second” in any case in the current folder<br/>
 `find . -type f -name "*" -exec grep -i "second" {} +`
- 29. Find lines in files where there is a combination of letters “second” in all folders below the level
+ 29. Find lines in files where there is a combination of letters “second” in all folders below the level<br/>
 `find inner_dir_1 -type f -name "*" -exec grep -i "second" {} +`
- 30. Find only the path and file name in the lines of which there is a combination of letters “second” in the current folder
+ 30. Find only the path and file name in the lines of which there is a combination of letters “second” in the current folder<br/>
 `find . $PWD -type f -name "*" -exec grep "second" {} +`
  31. Find all lines in all files where there is no “second” combination
 `find -type f -name "*" -exec grep -v "second" {} +`
- 32. Find only the name and path to files where there is no “second” combination
+ 32. Find only the name and path to files where there is no “second” combination<br/>
 `find $PWD -type f -name "*" -exec grep -v "second" {} +`
  33. Print to the terminal the last 4 lines of any text file
 `tail -n4 tf_2.txt`
@@ -71,11 +71,11 @@
 `head -n4 tf_4.txt`
  35. Command in one line. Create a folder and create a text file with contents.
 `mkdir B && touch B/myfile.txt`
- 36. Command in one line. Move to any one folder text files that have the word “sec” in their content
+ 36. Command in one line. Move to any one folder text files that have the word “sec” in their content<br/>
 `grep -rl "sec" | xargs mv -t B`
- 37. Command in one line. Copy to any one folder text files that have the word “sec” in their content
+ 37. Command in one line. Copy to any one folder text files that have the word “sec” in their content<br/>
 `grep -rl "sec" | xargs cp -t B`
- 38. Command in one line. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file.
+ 38. Command in one line. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file.<br/>
 `grep -iro 'sec' > sssssoo.txt`
  39. Command in one line. Delete text files that have the word “sec” in their content
 `grep -l "sec" * | xargs rm`
