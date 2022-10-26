@@ -97,17 +97,17 @@ mv a.txt b.txt d6/
 
  7. Go to the folder inner_dir_1. -
 `cd inner_dir_1`
- 8. Using cat command make a text file tf_3.txt with any lines. <br/>
+ 8. Using cat command make a text file tf_3.txt with any lines. 
  `cat >> tf_3.txt`
- 9. Using cat command add the line “the second 2” to the file tf_3.txt. <br/>
+ 9. Using cat command add the line “the second 2” to the file tf_3.txt. 
 `cat >> tf_3.txt`
- 10. Using cat command add the line “the sec 2” to the text file tf_3.txt. <br/>
+ 10. Using cat command add the line “the sec 2” to the text file tf_3.txt. 
 `cat >> tf_3.txt`
- 11. Using cat command add the line “the sec 3” to the text file tf_2.txt. <br/>
+ 11. Using cat command add the line “the sec 3” to the text file tf_2.txt. 
 `cat >> tf_2.txt`
- 12. Using cat command add the line “the SeCoNd 2” to the text file tf_3.txt. <br/>
+ 12. Using cat command add the line “the SeCoNd 2” to the text file tf_3.txt. 
 `cat >> tf_3.txt`
- 13. Using cat command add the line “the seConD 2” to the text file tf_2.txt. <br/>
+ 13. Using cat command add the line “the seConD 2” to the text file tf_2.txt. 
 `cat >> tf_2.txt`
  14. Make a text file tf_4.txt which will contain 15 lines.. 
 `seq 1 15 | cat > tf_4.txt`
