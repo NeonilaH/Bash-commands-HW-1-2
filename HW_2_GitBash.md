@@ -80,4 +80,4 @@
  39. Command in one line. Delete text files that have the word “sec” in their content
 `grep -l "sec" * | xargs rm`
  40. Just print the line “Good job!!”
-`echo "Good Job!"`
+  `echo "Good Job!"`
