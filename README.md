@@ -70,6 +70,8 @@ mv a.txt b.txt d6/
 
 `bash bash_script.sh`
 
+***
+
 ## HW_2_GitBash
 
 1. Make folder dir_1. <br/>
