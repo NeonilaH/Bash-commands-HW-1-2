@@ -9,20 +9,20 @@
 7) Create 3 folders. - `mkdir foldername4 foldername5 foldername6`
 8) List folder contents. - `ls`
 9) Open any txt file. - `open a.txt`
-10) Write there any text - `cat >> a.txt`
+10) Write there any text. - `cat >> a.txt`
 qwer
 bbg
-11) Save and exit - `Enter` --> `Ctrl+C`
-12) Exit the folder one level up - `cd ..`
-13) Move any 2 files you created to any other folder - `mv a.txt b.txt foldername5/`
-14) Copy any 2 files you created to any other folder - `cp a.txt b.txt foldername6/`
-15) Find a file by name - `find. -name c.txt`
+11) Save and exit. - `Enter` --> `Ctrl+C`
+12) Exit the folder one level up. - `cd ..`
+13) Move any 2 files you created to any other folder. - `mv a.txt b.txt foldername5/`
+14) Copy any 2 files you created to any other folder. - `cp a.txt b.txt foldername6/`
+15) Find a file by name. - `find. -name c.txt`
 16) View content in real time (`grep` command) and learn how it works - `tail -f a.txt | grep -w -i "sec"`
-17) Output the first few lines from a text file - `head -n3 a.txt`
-18) Output the last few lines from a text file - `tail -n3 a.txt`
-19) View the contents of a long file (`less` command) learn how it works - `less a.txt`
+17) Output the first few lines from a text file. - `head -n3 a.txt`
+18) Output the last few lines from a text file. - `tail -n3 a.txt`
+19) View the contents of a long file (`less` command) learn how it works. - `less a.txt`
 The more filter command displays the contents of the file on the screen in separate pages, just the size of the entire screen. In order to see the next page, you must press the spacebar. Pressing the ‹Enter› key shifts by one line. The ‹B› key goes back one screen. You can exit the view mode using the ‹Q› key.
-20) Display date and time - `date +%F-%T`
+20) Display date and time. - `date +%F-%T`
 
 ### Exercise *
 
@@ -74,22 +74,22 @@ mv a.txt b.txt d6/
 
 ## HW_2_GitBash
 
-1. Make folder dir_1. <br/>
+1. Make folder dir_1. -
 `mkdir dir_1`
- 2. Go to dir_1 folder. <br/>
+ 2. Go to dir_1 folder. -
 `cd dir_1`
- 3. Create folder inner_dir_1. <br/>
+ 3. Create folder inner_dir_1. -
  `mkdir inner_dir_1`
- 4. See where you are. <br/>
+ 4. See where you are. -
 `pwd`
- 5. Being in the dir_1 folder, create an empty text file tf_1.txt. <br/>
+ 5. Being in the dir_1 folder, create an empty text file tf_1.txt. -
  `touch tf_.txt`
  6. Being in the dir_1 folder, use the cat command to create a text file tf_2.txt with the following lines: the first 1
  second 2
  the third 3. <br/>
  `cat >> tf_2.txt`
 
- 7. Go to the folder inner_dir_1. <br/>
+ 7. Go to the folder inner_dir_1. -
 `cd inner_dir_1`
  8. Using cat command make a text file tf_3.txt with any lines. <br/>
  `cat >> tf_3.txt`
@@ -107,9 +107,9 @@ mv a.txt b.txt d6/
 `seq 1 15 | cat > tf_4.txt`
  15. Make a text file tF_5.txt which will contain 13 lines.. <br/>
 `seq 1 13 | cat > tF_5.txt`
- 16. List all files in a folder. <br/>
+ 16. List all files in a folder. -
 `ls`
- 17. Exit folder inner_dir_1. <br/>
+ 17. Exit folder inner_dir_1. -
 `cd`
  18. Output the contents of the tf_3.txt file to the terminal. <br/>
 `cat dir_1/inner_dir_1/tf_3.txt`
@@ -155,5 +155,5 @@ mv a.txt b.txt d6/
 `grep -iro 'sec' > sssssoo.txt`
  39. Command in one line. Delete text files that have the word “sec” in their content. <br/>
 `grep -l "sec" * | xargs rm`
- 40. Just print the line “Good job!!”. <br/>
+ 40. Just print the line “Good job!!”. -
   `echo "Good Job!"`
