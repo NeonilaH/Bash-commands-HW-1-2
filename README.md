@@ -109,9 +109,9 @@ mv a.txt b.txt d6/
 `cat >> tf_3.txt`
  13. Using cat command add the line “the seConD 2” to the text file tf_2.txt. 
 `cat >> tf_2.txt`
- 14. Make a text file tf_4.txt which will contain 15 lines.. 
+ 14. Make a text file tf_4.txt which will contain 15 lines. 
 `seq 1 15 | cat > tf_4.txt`
- 15. Make a text file tF_5.txt which will contain 13 lines.. 
+ 15. Make a text file tF_5.txt which will contain 13 lines.
 `seq 1 13 | cat > tF_5.txt`
  16. List all files in a folder. -
 `ls`
