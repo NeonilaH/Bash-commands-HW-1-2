@@ -119,7 +119,7 @@ mv a.txt b.txt d6/
 `cd`
  18. Output the contents of the tf_3.txt file to the terminal. -
 `cat dir_1/inner_dir_1/tf_3.txt`
- 19. Find the path to the file tf_4.txt. 
+ 19. Find the path to the file tf_4.txt. -
 `find $PWD -type f -name "tf_4.txt"`
  20. Clear the tf_4.txt file from the contents without deleting the file itself. -
 `> ft_4.txt`
@@ -147,9 +147,9 @@ mv a.txt b.txt d6/
 `find -type f -name "*" -exec grep -v "second" {} +`
  32. Find only the name and path to files where there is no “second” combination. <br/>
 `find $PWD -type f -name "*" -exec grep -v "second" {} +`
- 33. Print to the terminal the last 4 lines of any text file. 
+ 33. Print to the terminal the last 4 lines of any text file. -
 `tail -n4 tf_2.txt`
- 34. Output to terminal 4 the first lines of any text file. 
+ 34. Output to terminal 4 the first lines of any text file. -
 `head -n4 tf_4.txt`
  35. Command in one line. Create a folder and create a text file with contents. <br/>
 `mkdir B && touch B/myfile.txt`
