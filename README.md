@@ -97,33 +97,33 @@ mv a.txt b.txt d6/
 
  7. Go to the folder inner_dir_1. -
 `cd inner_dir_1`
- 8. Using cat command make a text file tf_3.txt with any lines. 
+ 8. Using cat command make a text file tf_3.txt with any lines. -
  `cat >> tf_3.txt`
- 9. Using cat command add the line “the second 2” to the file tf_3.txt. 
+ 9. Using cat command add the line “the second 2” to the file tf_3.txt. -
 `cat >> tf_3.txt`
- 10. Using cat command add the line “the sec 2” to the text file tf_3.txt. 
+ 10. Using cat command add the line “the sec 2” to the text file tf_3.txt. -
 `cat >> tf_3.txt`
- 11. Using cat command add the line “the sec 3” to the text file tf_2.txt. 
+ 11. Using cat command add the line “the sec 3” to the text file tf_2.txt. -
 `cat >> tf_2.txt`
- 12. Using cat command add the line “the SeCoNd 2” to the text file tf_3.txt. 
+ 12. Using cat command add the line “the SeCoNd 2” to the text file tf_3.txt. -
 `cat >> tf_3.txt`
- 13. Using cat command add the line “the seConD 2” to the text file tf_2.txt. 
+ 13. Using cat command add the line “the seConD 2” to the text file tf_2.txt. -
 `cat >> tf_2.txt`
- 14. Make a text file tf_4.txt which will contain 15 lines. 
+ 14. Make a text file tf_4.txt which will contain 15 lines. -
 `seq 1 15 | cat > tf_4.txt`
- 15. Make a text file tF_5.txt which will contain 13 lines.
+ 15. Make a text file tF_5.txt which will contain 13 lines. -
 `seq 1 13 | cat > tF_5.txt`
  16. List all files in a folder. -
 `ls`
  17. Exit folder inner_dir_1. -
 `cd`
- 18. Output the contents of the tf_3.txt file to the terminal. 
+ 18. Output the contents of the tf_3.txt file to the terminal. -
 `cat dir_1/inner_dir_1/tf_3.txt`
  19. Find the path to the file tf_4.txt. 
 `find $PWD -type f -name "tf_4.txt"`
- 20. Clear the tf_4.txt file from the contents without deleting the file itself. 
+ 20. Clear the tf_4.txt file from the contents without deleting the file itself. -
 `> ft_4.txt`
- 21. Find the path to files that have "tf" in their names. 
+ 21. Find the path to files that have "tf" in their names. -
 `find $PWD -type f -name "tf*"`
  22. Find the path to files that have "tf" in the name and letters in any case. <br/>
 `find $PWD -type f -iname "tf*"`
