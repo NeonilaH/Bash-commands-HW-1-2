@@ -24,8 +24,8 @@ bbg
 14) Copy any 2 files you created to any other folder. - `cp a.txt b.txt foldername6/`
 15) Find a file by name. - `find. -name c.txt`
 16) View content in real time (`grep` command) and learn how it works. - `tail -f a.txt | grep -w -i "sec"`
-17) Output the first few lines from a text file. - `head -n3 a.txt`
-18) Output the last few lines from a text file. - `tail -n3 a.txt`
+17) Print the first few lines from a text file. - `head -n3 a.txt`
+18) Print the last few lines from a text file. - `tail -n3 a.txt`
 19) View the contents of a long file (`less` command) learn how it works. - `less a.txt`
 The more filter command displays the contents of the file on the screen in separate pages, just the size of the entire screen. In order to see the next page, you must press the spacebar. Pressing the ‹Enter› key shifts by one line. The ‹B› key goes back one screen. You can exit the view mode using the ‹Q› key.
 20) Display date and time. - `date +%F-%T`
